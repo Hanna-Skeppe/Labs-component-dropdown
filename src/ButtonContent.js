@@ -1,27 +1,27 @@
 import React from 'react'
 
-const ButtonContent = () => {
+const ButtonContent = (props) => {
   return (
-    <div className="button-content">
+    <>
       <a
         className="button-link"
-        href="#"
+        href={props.linkUrl1}
         rel="noopener noreferrer">
-        Link 1
+        {props.linkName1}
       </a>
       <a
         className="button-link"
-        href="#"
+        href={props.linkUrl2}
         rel="noopener noreferrer">
-        Link 2
+        {props.linkName2}
       </a>
       <a
         className="button-link"
-        href="#"
+        href={props.linkUrl3}
         rel="noopener noreferrer">
-        Link 3
+        {props.linkName3}
       </a>
-    </div>
+    </>
   )
 }
 export default ButtonContent

@@ -1,15 +1,13 @@
 import React from 'react'
-import ButtonContent from './ButtonContent'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <>
-      <div className="dropdown">
-        <button type="button" className="dropbtn">Dropdown</button>
-        <>
-          <ButtonContent />
-        </>
-      </div>
+      <button
+        type="button"
+        className="dropbtn">
+        {props.buttonName}
+      </button>
     </>
   )
 }
