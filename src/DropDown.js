@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from 'Button'
+import Button from '../code/node_modules/Button'
 import ButtonContent from './ButtonContent'
 
 // props is defined but never used. What should be props in this case?
