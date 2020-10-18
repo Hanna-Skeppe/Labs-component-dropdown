@@ -4,7 +4,7 @@ import DropDown from './DropDown'
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <DropDown />
     </div>
   )
 }
